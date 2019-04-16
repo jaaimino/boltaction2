@@ -1,4 +1,4 @@
-Bolt Action
+Bolt Action Second Edition
 ===========
 
 ####Contents####
