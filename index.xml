@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<dataIndex battleScribeVersion="2.01" name="Bolt Action 2nd Edition" indexUrl="https://www.dropbox.com/sh/saslfgl9o5s2o7k/AABKWqx9nZdKG58MDu9sMS1ga?dl=0" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
-  <repositoryUrls/>
-  <dataIndexEntries>
-    <dataIndexEntry filePath="Bolt Action generic Reinforced Platoon.gstz" dataType="gamesystem" dataId="dd1c28f5-7a1e-e616-4caa-87ff07e7d4f1" dataName="Bolt Action 2nd Edition" dataBattleScribeVersion="2.01" dataRevision="11"/>
-    <dataIndexEntry filePath="BA - Armies of Germany.catz" dataType="catalogue" dataId="70c8ee59-d10a-5bc2-22d9-4a729c6ba178" dataName="Armies of Germany" dataBattleScribeVersion="2.01" dataRevision="13"/>
-  </dataIndexEntries>
-</dataIndex>
