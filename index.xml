@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<dataIndex battleScribeVersion="2.01" name="Bolt Action 2nd Edition" indexUrl="https://www.dropbox.com/sh/saslfgl9o5s2o7k/AABKWqx9nZdKG58MDu9sMS1ga?dl=0" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+<dataIndex battleScribeVersion="2.01" name="Bolt Action 2nd Edition" indexUrl="https://raw.githubusercontent.com/jaaimino/boltaction2/gh-pages/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <repositoryUrls/>
   <dataIndexEntries>
     <dataIndexEntry filePath="Bolt Action generic Reinforced Platoon.gstz" dataType="gamesystem" dataId="dd1c28f5-7a1e-e616-4caa-87ff07e7d4f1" dataName="Bolt Action 2nd Edition" dataBattleScribeVersion="2.01" dataRevision="11"/>
