@@ -145,6 +145,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c46c-9daa-7d2f-2af4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="121a-1831-0d38-8fb4" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="7a85-a4f0-f247-15fb" name="Machine Gun" hidden="false" targetId="0cee-3e92-bc18-b90a" primary="false">
@@ -13767,6 +13768,29 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e0d5-f404-363d-6eb5" name="Assault Rifle" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="dc0e-f903-a9be-74a8" name="Assault Rifle" hidden="false" targetId="9aa2-11bc-3039-06b4" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8479-93a0-c42d-e475" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
