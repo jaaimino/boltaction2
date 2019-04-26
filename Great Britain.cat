@@ -13107,9 +13107,6 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <entryLinks>
-            <entryLink id="4cda-dd11-8f5e-26da" name="Assault Rifle" hidden="false" collective="false" targetId="442a-c41b-7dec-931a" type="selectionEntry"/>
-          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8b5b-9503-d9bd-5704" name="Additional Men" hidden="false" collective="false">
           <constraints>
@@ -13126,6 +13123,11 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
                 <modifier type="set" field="points" value="13">
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="454a-cf3f-cb81-a151" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="points" value="7">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf0a-6e07-46a2-351b" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -13192,7 +13194,7 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
                 <infoLink id="bc56-c06c-19bd-7b02" name="Regular" hidden="false" targetId="f81c-4594-3dd8-1b31" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="110.0"/>
+                <cost name="pts" typeId="points" value="50.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="454a-cf3f-cb81-a151" name="Veteran" hidden="false" collective="false" type="upgrade">
@@ -13200,7 +13202,15 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
                 <infoLink id="8eb5-eb07-360b-472e" name="Veteran" hidden="false" targetId="6482-4fb2-8774-8816" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="125.0"/>
+                <cost name="pts" typeId="points" value="65.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bf0a-6e07-46a2-351b" name="Inexperienced" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="dd5a-f987-886e-ad3e" name="Regular" hidden="false" targetId="f81c-4594-3dd8-1b31" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -13246,9 +13256,6 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <entryLinks>
-            <entryLink id="4f27-4506-edcf-d743" name="Assault Rifle" hidden="false" collective="false" targetId="442a-c41b-7dec-931a" type="selectionEntry"/>
-          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="d980-515d-dec8-9560" name="Additional Men" hidden="false" collective="false">
           <constraints>
@@ -13265,6 +13272,11 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
                 <modifier type="set" field="points" value="13">
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6fe0-3116-6b17-d957" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="points" value="7">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9bf7-dd07-08ae-d437" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -13331,7 +13343,7 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
                 <infoLink id="327b-5820-6173-ca40" name="Regular" hidden="false" targetId="f81c-4594-3dd8-1b31" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="110.0"/>
+                <cost name="pts" typeId="points" value="75.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6fe0-3116-6b17-d957" name="Veteran" hidden="false" collective="false" type="upgrade">
@@ -13339,7 +13351,15 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
                 <infoLink id="b3c2-6909-f89d-f65f" name="Veteran" hidden="false" targetId="6482-4fb2-8774-8816" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="125.0"/>
+                <cost name="pts" typeId="points" value="90.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9bf7-dd07-08ae-d437" name="Inexperienced" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="f0aa-9e4d-4902-3638" name="Veteran" hidden="false" targetId="6482-4fb2-8774-8816" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="60.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -13393,14 +13413,19 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
           <selectionEntries>
             <selectionEntry id="d1af-b061-c329-d512" name="Soldier" page="0" hidden="false" collective="false" type="model">
               <modifiers>
-                <modifier type="set" field="points" value="10">
+                <modifier type="set" field="points" value="7">
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b67-a0de-0bad-b120" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf11-68aa-ba4d-561a" type="equalTo"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="points" value="13">
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ced3-d892-383e-d037" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="points" value="10">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b67-a0de-0bad-b120" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -13478,6 +13503,14 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
                 <cost name="pts" typeId="points" value="125.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="bf11-68aa-ba4d-561a" name="Inexperienced" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="bf18-2ba7-95b4-8f1f" name="Inexperienced" hidden="false" targetId="df35-808d-df69-e621" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="95.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -13537,6 +13570,11 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
                 <modifier type="set" field="points" value="13">
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccc8-a8ef-fe05-5f78" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="points" value="7">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb1f-379c-ac87-87bd" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -13612,6 +13650,14 @@ If you roll a 1 (before modification) when you are rolling to hit then it has br
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="165.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cb1f-379c-ac87-87bd" name="Inexperienced" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="652c-4c66-b511-7a09" name="Inexperienced" hidden="false" targetId="df35-808d-df69-e621" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="135.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

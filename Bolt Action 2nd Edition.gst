@@ -26,6 +26,7 @@
     <profileType id="2824ab73-d5bb-a968-a566-19371da1c5e4" name="Troop Quality">
       <characteristicTypes>
         <characteristicType id="cd18296c-c82a-5671-d4f4-db025626d4e9" name="Morale"/>
+        <characteristicType id="1c0f-526d-de98-02c0" name="Damage Value"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -48,6 +49,7 @@
     <categoryEntry id="35a6-1ca4-02c4-b20e" name="Medic" hidden="false"/>
     <categoryEntry id="f27f-7826-184d-2067" name="Higher Officer" hidden="false"/>
     <categoryEntry id="7763-58a3-73ad-c67e" name="Anti-Tank" hidden="false"/>
+    <categoryEntry id="bbcf-7b6b-3b3c-56c5" name="Flag" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="056da2ee-51e1-8f71-63fc-331beda2a35f" name="Allies" hidden="false">
@@ -1143,6 +1145,57 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="fb44-fb12-c55b-4d6d" name="Tough Fighters" page="0" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="points" value="1">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8979-d37a-e1dc-942e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="011c-2b35-1b32-5a57" name="Tough Fighters" hidden="false" targetId="f22f-836d-e003-10d0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b1ce-9535-2b70-1bd4" name="Body Armour" page="0" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="points" value="5">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c9e-1d44-6cf0-fc99" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d415-df6b-80dd-f07f" name="Shirkers" page="0" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="decrement" field="points" value="3">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a42-3f69-7feb-7517" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e814-ba15-3491-f9dc" name="Shirkers" hidden="false" targetId="f063-145b-b5eb-e71b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="0264-acf9-fa2c-cba2" name="Rating" hidden="false" collective="false">
@@ -1382,6 +1435,37 @@ Ignores the Gun Shield rule</description>
     <rule id="4134-a070-434c-b85e" name="Vulnerable" page="0" hidden="false">
       <description>All shots to side and rear +1 penetration modifier.</description>
     </rule>
+    <rule id="f329-d9e2-7677-646e" name="Experimental" hidden="false">
+      <description>Unfamiliarity and teething problems mean that experimental tanks must pass an order test whenever they are given an order - even when they have no Pin markers on them!</description>
+    </rule>
+    <rule id="c676-3289-39ac-1b44" name="Dog Mine" hidden="false">
+      <description>A dog mine is a one-shot weapon with a range of 18&quot;. Dog mines can only target stationary vehicles (i.e. any vehicle that is not sporting an order dice showing  Run or Advance order).  Dog mines are fired as normal, except instead of rolling a die to hit, you roll on the following chart. Note that if a Recce vehicle reacts to the dog mine attack by moving, the dog mine automatically scores a 2-3.
+
+1 The dog hits the closes friendly stationary vehicle within range instead of the target. Resolve as a hit 4-6 below. If no target presents, see 2-3 below. 
+
+2-3 The dog is either gunned down or bolts from the noise of battle and deserts, possibly lured by the smell of German sausages. The traitor will be shot on sight by political officers. 
+
+4-6 The dog scampers to the target, crawls underneat and explodes. The vehicle suffers a hit with a Pen of +5. (No Pen modifiers apply) </description>
+    </rule>
+    <rule id="c4ab-b333-f5b3-bef3" name="Heavy Rocket Launcher" hidden="false">
+      <description>The Heavy Rocket Launcher fires HE (3D6) rockets rather than the usual HE(2D6) rockets. However, to represent the fact that it is so slow to reload, when it fires it immediately suffers D3 pin markers. It must then be given a successful Rally order to reload it before it can be ordered to fire again.  </description>
+    </rule>
+    <rule id="f353-b5e2-22a9-abeb" name="Slow Load" page="0" hidden="false">
+      <description>This unit cannot be given another order until at least one other unit on the same side has already been given orders (whther successful or not)</description>
+    </rule>
+    <rule id="352c-c68d-1a10-c753" name="Vengeance" hidden="false">
+      <description>If the enemy force includes and SS units, partisans count as both Fanatics and Tough Fighters.</description>
+    </rule>
+    <rule id="d882-8f14-e969-5db1" name="Unarmed" hidden="false">
+      <description>Unarmed men neither shoot nor attack in close quarters - their only value is as casualties. </description>
+    </rule>
+    <rule id="716e-4008-6c13-b3b1" name="Rally to the colors!" hidden="false">
+      <description>One man in an infantry squad can replace all of his weapons with a flag. All friendly infantry and artillery units within 12” of the flag-bearing model can re-roll failed Order tests when ordered to Rally. In addition, if the Rally Order is successfully issued, the unit rolls two dice to determine how many pin markers are discarded and chooses the highest result. However, while the unit carrying the flag has a Down or Ambush order dice on it, the flag is kept hidden and has no effect.
+</description>
+    </rule>
+    <rule id="2420-19c8-8785-dbd7" name="Note one step back!" hidden="false">
+      <description>When a friendly unit fails an Order test within 6&quot; of a commissar, remove one model from the unit and re-roll the dice. Note that there is no choice in the matter - if the commissar is within 6&quot; of the unit he will shoot dissenters whether you want him to or not! The second result stands as normal. The commissar can only make one re-roll per unit. This does not apply to units with one or two models to start with.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="ce35-f9b5-5cff-e417" name="Anti-tank rifle" page="0" hidden="false" typeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb" typeName="">
@@ -1475,6 +1559,7 @@ Ignores the Gun Shield rule</description>
     <profile id="df35-808d-df69-e621" name="Inexperienced" page="0" hidden="false" typeId="2824ab73-d5bb-a968-a566-19371da1c5e4" typeName="">
       <characteristics>
         <characteristic name="Morale" typeId="cd18296c-c82a-5671-d4f4-db025626d4e9">8</characteristic>
+        <characteristic name="Damage Value" typeId="1c0f-526d-de98-02c0">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="cfed-b53c-69f9-bee4" name="Light AT gun" page="0" hidden="false" typeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb" typeName="">
@@ -1584,6 +1669,7 @@ Ignores the Gun Shield rule</description>
     <profile id="f81c-4594-3dd8-1b31" name="Regular" page="0" hidden="false" typeId="2824ab73-d5bb-a968-a566-19371da1c5e4" typeName="">
       <characteristics>
         <characteristic name="Morale" typeId="cd18296c-c82a-5671-d4f4-db025626d4e9">9</characteristic>
+        <characteristic name="Damage Value" typeId="1c0f-526d-de98-02c0">4+</characteristic>
       </characteristics>
     </profile>
     <profile id="1047-6074-2813-3a44" name="Rifle" page="0" hidden="false" typeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb" typeName="">
@@ -1613,6 +1699,7 @@ Ignores the Gun Shield rule</description>
     <profile id="6482-4fb2-8774-8816" name="Veteran" page="0" hidden="false" typeId="2824ab73-d5bb-a968-a566-19371da1c5e4" typeName="">
       <characteristics>
         <characteristic name="Morale" typeId="cd18296c-c82a-5671-d4f4-db025626d4e9">10</characteristic>
+        <characteristic name="Damage Value" typeId="1c0f-526d-de98-02c0">5+</characteristic>
       </characteristics>
     </profile>
     <profile id="d824-f7fa-e1fd-0057" name="Shotgun" hidden="false" typeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb" typeName="">
@@ -1629,6 +1716,14 @@ Ignores the Gun Shield rule</description>
         <characteristic name="Shots" typeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef">4</characteristic>
         <characteristic name="Penetration" typeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8">n/a</characteristic>
         <characteristic name="Special Rules" typeId="a20985c1-29eb-9dbc-db45-3d439b60eed7">Team</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0683-be12-1bef-b840" name="Small Vehicle Flamethrower" hidden="false" typeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb" typeName="">
+      <characteristics>
+        <characteristic name="Range" typeId="d527d332-6869-32b4-3a5a-13127d8e04c9">12&quot;</characteristic>
+        <characteristic name="Shots" typeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef">2D6-1</characteristic>
+        <characteristic name="Penetration" typeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8">na</characteristic>
+        <characteristic name="Special Rules" typeId="a20985c1-29eb-9dbc-db45-3d439b60eed7"/>
       </characteristics>
     </profile>
   </sharedProfiles>
