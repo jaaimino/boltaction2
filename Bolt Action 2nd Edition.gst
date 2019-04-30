@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="dd1c28f5-7a1e-e616-4caa-87ff07e7d4f1" name="Bolt Action" revision="10" battleScribeVersion="2.02" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
-    <publication id="dd1c28f5--pubN72908" name="Tank Wars"/>
+    <publication id="dd1c28f5--pubN72908" name="Tank War"/>
+    <publication id="393a-2f12-6da2-c6c3" name="Battle of France"/>
+    <publication id="2a8a-5454-7def-eda3" name="Fortress Budapest"/>
+    <publication id="bf5c-9fc7-927e-accc" name="Bolt Action V2"/>
+    <publication id="d285-1514-04fd-2ca9" name="Armies of Germany V2"/>
   </publications>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0"/>
@@ -1276,7 +1280,14 @@ The crew can fire the LMG or the main gun, but not both at the same time</descri
     </rule>
     <rule id="a191-6130-649a-2850" name="Dual Direction Steering" page="0" hidden="false"/>
     <rule id="59f0-9c1b-f5ae-d39d" name="Easily Catches Fire" page="0" hidden="false"/>
-    <rule id="8595-82d5-3bbe-29ee" name="Fanatics" page="0" hidden="false"/>
+    <rule id="8595-82d5-3bbe-29ee" name="Fanatics" page="0" hidden="false">
+      <description>Fanatic units with at least two men left are not routed and destroyed when they have a number of pin
+markers equal to their morale value. Of course such unit is not very likely to be able to do anything until it
+manages to Rally.
+When a fanatic unit is defeated in close quarters fighting, the fight counts as a draw instead and another
+round is immediately fought. Continue fighting until the fanatic unit wins, is completely wiped out or is
+defeated and left with a single model in which case it is destroyed.</description>
+    </rule>
     <rule id="7213-8eae-f351-f2f7" name="Fixed" page="0" hidden="false">
       <description>Cannot be fired under an advance order
 Can only target units at leat partially in their front arc</description>
@@ -1462,6 +1473,12 @@ Ignores the Gun Shield rule</description>
     <rule id="2420-19c8-8785-dbd7" name="Note one step back!" hidden="false">
       <description>When a friendly unit fails an Order test within 6&quot; of a commissar, remove one model from the unit and re-roll the dice. Note that there is no choice in the matter - if the commissar is within 6&quot; of the unit he will shoot dissenters whether you want him to or not! The second result stands as normal. The commissar can only make one re-roll per unit. This does not apply to units with one or two models to start with.</description>
     </rule>
+    <rule id="957e-ae3e-6aa7-09e7" name="Replacements" publicationId="2a8a-5454-7def-eda3" hidden="false">
+      <description>The battle-hardened survivors of the once proud SS Panzer Divisions are now surrounded by barely trained replacements from the Luftwaffe and Kriegsmarine. The first time the unit suffers a casualty, roll a die. On a roll of a 1 the unit suffers an additional D6 pin markers and goes Down. On a 2–6 the unit fights on as normal. In addition, if the squad is reduced to two members or less it is upgraded to Veteran with morale 10.</description>
+    </rule>
+    <rule id="e250-ec95-0512-0a03" name="Motorized Infantry" hidden="false">
+      <description>This squad can re-roll any failed order test that is required to mount or dismount a transport vehicle.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="ce35-f9b5-5cff-e417" name="Anti-tank rifle" page="0" hidden="false" typeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb" typeName="">
@@ -1469,7 +1486,7 @@ Ignores the Gun Shield rule</description>
         <characteristic name="Range" typeId="d527d332-6869-32b4-3a5a-13127d8e04c9">36&quot;</characteristic>
         <characteristic name="Shots" typeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef">1</characteristic>
         <characteristic name="Penetration" typeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8">+2</characteristic>
-        <characteristic name="Special Rules" typeId="a20985c1-29eb-9dbc-db45-3d439b60eed7"></characteristic>
+        <characteristic name="Special Rules" typeId="a20985c1-29eb-9dbc-db45-3d439b60eed7"/>
       </characteristics>
     </profile>
     <profile id="9aa2-11bc-3039-06b4" name="Assault Rifle" page="0" hidden="false" typeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb" typeName="">
@@ -1541,7 +1558,7 @@ Ignores the Gun Shield rule</description>
         <characteristic name="Range" typeId="d527d332-6869-32b4-3a5a-13127d8e04c9">36&quot;</characteristic>
         <characteristic name="Shots" typeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef">3</characteristic>
         <characteristic name="Penetration" typeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8">+1</characteristic>
-        <characteristic name="Special Rules" typeId="a20985c1-29eb-9dbc-db45-3d439b60eed7"></characteristic>
+        <characteristic name="Special Rules" typeId="a20985c1-29eb-9dbc-db45-3d439b60eed7"/>
       </characteristics>
     </profile>
     <profile id="02a4-80be-cd64-27f1" name="Heavy Mortar" page="0" hidden="false" typeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb" typeName="">
@@ -1587,7 +1604,7 @@ Ignores the Gun Shield rule</description>
         <characteristic name="Range" typeId="d527d332-6869-32b4-3a5a-13127d8e04c9">36&quot;</characteristic>
         <characteristic name="Shots" typeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef">4</characteristic>
         <characteristic name="Penetration" typeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8">n/a</characteristic>
-        <characteristic name="Special Rules" typeId="a20985c1-29eb-9dbc-db45-3d439b60eed7"></characteristic>
+        <characteristic name="Special Rules" typeId="a20985c1-29eb-9dbc-db45-3d439b60eed7"/>
       </characteristics>
     </profile>
     <profile id="a8ed-ef11-987d-5c33" name="Light mortar" page="0" hidden="false" typeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb" typeName="">
