@@ -2,66 +2,20 @@
 <dataIndex battleScribeVersion="2.02" name="Bolt Action 2nd Edition" indexUrl="http://www.jaimino.com/boltaction2/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
     <dataIndexEntry filePath="Bolt Action 2nd Edition.gstz" dataType="gamesystem" dataId="dd1c28f5-7a1e-e616-4caa-87ff07e7d4f1" dataName="Bolt Action" dataBattleScribeVersion="2.02" dataRevision="10"/>
-    <dataIndexEntry filePath="Bolt Action 2nd Edition.gstz" dataType="gamesystem" dataId="dd1c28f5-7a1e-e616-4caa-87ff07e7d4f1" dataName="Bolt Action" dataBattleScribeVersion="2.02" dataRevision="10"/>
-    <dataIndexEntry filePath="Romania.catz" dataType="catalogue" dataId="6ce210f4-8bcd-c25f-f24c-27c5369ac819" dataName="Armies of Romania" dataBattleScribeVersion="2.02" dataRevision="4"/>
-    <dataIndexEntry filePath="Poland.catz" dataType="catalogue" dataId="75efa9ee-190c-008b-43ec-fcbbf8e3ef09" dataName="Armies of Poland" dataBattleScribeVersion="2.02" dataRevision="7"/>
-    <dataIndexEntry filePath="United States.catz" dataType="catalogue" dataId="49f05393-294d-1013-a9bb-a7279fd20846" dataName="Armies of the United States" dataBattleScribeVersion="2.02" dataRevision="16"/>
-    <dataIndexEntry filePath="Bulgaria.catz" dataType="catalogue" dataId="148eb51e-1a1a-8629-1e7e-eaecd3d09576" dataName="Armies of Bulgaria" dataBattleScribeVersion="2.02" dataRevision="8"/>
-    <dataIndexEntry filePath="China.catz" dataType="catalogue" dataId="8edb55ca-47ce-acc2-5ff0-9f8a70aea658" dataName="Armies of China" dataBattleScribeVersion="2.02" dataRevision="3"/>
-    <dataIndexEntry filePath="Japan.catz" dataType="catalogue" dataId="2daaca48-bb03-1c9c-509c-854e40417697" dataName="Armies of Imperial Japan" dataBattleScribeVersion="2.02" dataRevision="11"/>
-    <dataIndexEntry filePath="Partisans.catz" dataType="catalogue" dataId="82c445f0-ffa1-081d-4066-f7975ec5c152" dataName="Partisans" dataBattleScribeVersion="2.02" dataRevision="4"/>
-    <dataIndexEntry filePath="Belgium.catz" dataType="catalogue" dataId="15c0b449-f5f2-7ea1-26c9-8f8535ab16d6" dataName="Armies of Belgium" dataBattleScribeVersion="2.02" dataRevision="4"/>
     <dataIndexEntry filePath="Germany.catz" dataType="catalogue" dataId="70c8ee59-d10a-5bc2-22d9-4a729c6ba178" dataName="Armies of Germany" dataBattleScribeVersion="2.02" dataRevision="13"/>
-    <dataIndexEntry filePath="Poland.catz" dataType="catalogue" dataId="75efa9ee-190c-008b-43ec-fcbbf8e3ef09" dataName="Armies of Poland" dataBattleScribeVersion="2.02" dataRevision="7"/>
-    <dataIndexEntry filePath="Hungary.catz" dataType="catalogue" dataId="fc7153e0-4f6d-fd46-c72c-96c22e80efc5" dataName="Armies of Hungary" dataBattleScribeVersion="2.02" dataRevision="9"/>
-    <dataIndexEntry filePath="United States.catz" dataType="catalogue" dataId="49f05393-294d-1013-a9bb-a7279fd20846" dataName="Armies of the United States" dataBattleScribeVersion="2.02" dataRevision="16"/>
-    <dataIndexEntry filePath="Soviet Union.catz" dataType="catalogue" dataId="f8f3ff7d-fbdb-f091-c174-c56498d9c6a7" dataName="Armies of the Soviet Union" dataBattleScribeVersion="2.02" dataRevision="11"/>
-    <dataIndexEntry filePath="Finland.catz" dataType="catalogue" dataId="c21b0d9f-da49-864a-d4b3-a2553525647f" dataName="Armies of Finland" dataBattleScribeVersion="2.02" dataRevision="8"/>
-    <dataIndexEntry filePath="Germany.catz" dataType="catalogue" dataId="70c8ee59-d10a-5bc2-22d9-4a729c6ba178" dataName="Armies of Germany" dataBattleScribeVersion="2.02" dataRevision="13"/>
-    <dataIndexEntry filePath="Japan.catz" dataType="catalogue" dataId="2daaca48-bb03-1c9c-509c-854e40417697" dataName="Armies of Imperial Japan" dataBattleScribeVersion="2.02" dataRevision="11"/>
     <dataIndexEntry filePath="China.catz" dataType="catalogue" dataId="8edb55ca-47ce-acc2-5ff0-9f8a70aea658" dataName="Armies of China" dataBattleScribeVersion="2.02" dataRevision="3"/>
     <dataIndexEntry filePath="Romania.catz" dataType="catalogue" dataId="6ce210f4-8bcd-c25f-f24c-27c5369ac819" dataName="Armies of Romania" dataBattleScribeVersion="2.02" dataRevision="4"/>
+    <dataIndexEntry filePath="United States.catz" dataType="catalogue" dataId="49f05393-294d-1013-a9bb-a7279fd20846" dataName="Armies of the United States" dataBattleScribeVersion="2.02" dataRevision="16"/>
     <dataIndexEntry filePath="Bulgaria.catz" dataType="catalogue" dataId="148eb51e-1a1a-8629-1e7e-eaecd3d09576" dataName="Armies of Bulgaria" dataBattleScribeVersion="2.02" dataRevision="8"/>
-    <dataIndexEntry filePath="France.catz" dataType="catalogue" dataId="92c6d2cd-332f-c735-32f0-00414cd603c0" dataName="Armies of France" dataBattleScribeVersion="2.02" dataRevision="9"/>
     <dataIndexEntry filePath="Partisans.catz" dataType="catalogue" dataId="82c445f0-ffa1-081d-4066-f7975ec5c152" dataName="Partisans" dataBattleScribeVersion="2.02" dataRevision="4"/>
-    <dataIndexEntry filePath="Italy.catz" dataType="catalogue" dataId="75ceb4ab-9892-e08f-73dc-3a5613709c2b" dataName="Armies of Italy" dataBattleScribeVersion="2.02" dataRevision="13"/>
+    <dataIndexEntry filePath="Japan.catz" dataType="catalogue" dataId="2daaca48-bb03-1c9c-509c-854e40417697" dataName="Armies of Imperial Japan" dataBattleScribeVersion="2.02" dataRevision="11"/>
     <dataIndexEntry filePath="Great Britain.catz" dataType="catalogue" dataId="7014295d-9867-d9bc-f92b-43bd75721bed" dataName="Armies of Great Britain" dataBattleScribeVersion="2.02" dataRevision="16"/>
     <dataIndexEntry filePath="Hungary.catz" dataType="catalogue" dataId="fc7153e0-4f6d-fd46-c72c-96c22e80efc5" dataName="Armies of Hungary" dataBattleScribeVersion="2.02" dataRevision="9"/>
+    <dataIndexEntry filePath="Poland.catz" dataType="catalogue" dataId="75efa9ee-190c-008b-43ec-fcbbf8e3ef09" dataName="Armies of Poland" dataBattleScribeVersion="2.02" dataRevision="7"/>
     <dataIndexEntry filePath="Belgium.catz" dataType="catalogue" dataId="15c0b449-f5f2-7ea1-26c9-8f8535ab16d6" dataName="Armies of Belgium" dataBattleScribeVersion="2.02" dataRevision="4"/>
     <dataIndexEntry filePath="Italy.catz" dataType="catalogue" dataId="75ceb4ab-9892-e08f-73dc-3a5613709c2b" dataName="Armies of Italy" dataBattleScribeVersion="2.02" dataRevision="13"/>
     <dataIndexEntry filePath="Finland.catz" dataType="catalogue" dataId="c21b0d9f-da49-864a-d4b3-a2553525647f" dataName="Armies of Finland" dataBattleScribeVersion="2.02" dataRevision="8"/>
-    <dataIndexEntry filePath="France.catz" dataType="catalogue" dataId="92c6d2cd-332f-c735-32f0-00414cd603c0" dataName="Armies of France" dataBattleScribeVersion="2.02" dataRevision="9"/>
     <dataIndexEntry filePath="Soviet Union.catz" dataType="catalogue" dataId="f8f3ff7d-fbdb-f091-c174-c56498d9c6a7" dataName="Armies of the Soviet Union" dataBattleScribeVersion="2.02" dataRevision="11"/>
-    <dataIndexEntry filePath="Great Britain.catz" dataType="catalogue" dataId="7014295d-9867-d9bc-f92b-43bd75721bed" dataName="Armies of Great Britain" dataBattleScribeVersion="2.02" dataRevision="16"/>
-    <dataIndexEntry filePath="Romania.catz" dataType="catalogue" dataId="6ce210f4-8bcd-c25f-f24c-27c5369ac819" dataName="Armies of Romania" dataBattleScribeVersion="2.02" dataRevision="4"/>
-    <dataIndexEntry filePath="Poland.catz" dataType="catalogue" dataId="75efa9ee-190c-008b-43ec-fcbbf8e3ef09" dataName="Armies of Poland" dataBattleScribeVersion="2.02" dataRevision="7"/>
-    <dataIndexEntry filePath="United States.catz" dataType="catalogue" dataId="49f05393-294d-1013-a9bb-a7279fd20846" dataName="Armies of the United States" dataBattleScribeVersion="2.02" dataRevision="16"/>
-    <dataIndexEntry filePath="Bulgaria.catz" dataType="catalogue" dataId="148eb51e-1a1a-8629-1e7e-eaecd3d09576" dataName="Armies of Bulgaria" dataBattleScribeVersion="2.02" dataRevision="8"/>
-    <dataIndexEntry filePath="China.catz" dataType="catalogue" dataId="8edb55ca-47ce-acc2-5ff0-9f8a70aea658" dataName="Armies of China" dataBattleScribeVersion="2.02" dataRevision="3"/>
-    <dataIndexEntry filePath="Japan.catz" dataType="catalogue" dataId="2daaca48-bb03-1c9c-509c-854e40417697" dataName="Armies of Imperial Japan" dataBattleScribeVersion="2.02" dataRevision="11"/>
-    <dataIndexEntry filePath="Partisans.catz" dataType="catalogue" dataId="82c445f0-ffa1-081d-4066-f7975ec5c152" dataName="Partisans" dataBattleScribeVersion="2.02" dataRevision="4"/>
-    <dataIndexEntry filePath="Belgium.catz" dataType="catalogue" dataId="15c0b449-f5f2-7ea1-26c9-8f8535ab16d6" dataName="Armies of Belgium" dataBattleScribeVersion="2.02" dataRevision="4"/>
-    <dataIndexEntry filePath="Germany.catz" dataType="catalogue" dataId="70c8ee59-d10a-5bc2-22d9-4a729c6ba178" dataName="Armies of Germany" dataBattleScribeVersion="2.02" dataRevision="13"/>
-    <dataIndexEntry filePath="Poland.catz" dataType="catalogue" dataId="75efa9ee-190c-008b-43ec-fcbbf8e3ef09" dataName="Armies of Poland" dataBattleScribeVersion="2.02" dataRevision="7"/>
-    <dataIndexEntry filePath="Hungary.catz" dataType="catalogue" dataId="fc7153e0-4f6d-fd46-c72c-96c22e80efc5" dataName="Armies of Hungary" dataBattleScribeVersion="2.02" dataRevision="9"/>
-    <dataIndexEntry filePath="United States.catz" dataType="catalogue" dataId="49f05393-294d-1013-a9bb-a7279fd20846" dataName="Armies of the United States" dataBattleScribeVersion="2.02" dataRevision="16"/>
-    <dataIndexEntry filePath="Soviet Union.catz" dataType="catalogue" dataId="f8f3ff7d-fbdb-f091-c174-c56498d9c6a7" dataName="Armies of the Soviet Union" dataBattleScribeVersion="2.02" dataRevision="11"/>
-    <dataIndexEntry filePath="Finland.catz" dataType="catalogue" dataId="c21b0d9f-da49-864a-d4b3-a2553525647f" dataName="Armies of Finland" dataBattleScribeVersion="2.02" dataRevision="8"/>
-    <dataIndexEntry filePath="Germany.catz" dataType="catalogue" dataId="70c8ee59-d10a-5bc2-22d9-4a729c6ba178" dataName="Armies of Germany" dataBattleScribeVersion="2.02" dataRevision="13"/>
-    <dataIndexEntry filePath="Japan.catz" dataType="catalogue" dataId="2daaca48-bb03-1c9c-509c-854e40417697" dataName="Armies of Imperial Japan" dataBattleScribeVersion="2.02" dataRevision="11"/>
-    <dataIndexEntry filePath="China.catz" dataType="catalogue" dataId="8edb55ca-47ce-acc2-5ff0-9f8a70aea658" dataName="Armies of China" dataBattleScribeVersion="2.02" dataRevision="3"/>
-    <dataIndexEntry filePath="Romania.catz" dataType="catalogue" dataId="6ce210f4-8bcd-c25f-f24c-27c5369ac819" dataName="Armies of Romania" dataBattleScribeVersion="2.02" dataRevision="4"/>
-    <dataIndexEntry filePath="Bulgaria.catz" dataType="catalogue" dataId="148eb51e-1a1a-8629-1e7e-eaecd3d09576" dataName="Armies of Bulgaria" dataBattleScribeVersion="2.02" dataRevision="8"/>
     <dataIndexEntry filePath="France.catz" dataType="catalogue" dataId="92c6d2cd-332f-c735-32f0-00414cd603c0" dataName="Armies of France" dataBattleScribeVersion="2.02" dataRevision="9"/>
-    <dataIndexEntry filePath="Partisans.catz" dataType="catalogue" dataId="82c445f0-ffa1-081d-4066-f7975ec5c152" dataName="Partisans" dataBattleScribeVersion="2.02" dataRevision="4"/>
-    <dataIndexEntry filePath="Italy.catz" dataType="catalogue" dataId="75ceb4ab-9892-e08f-73dc-3a5613709c2b" dataName="Armies of Italy" dataBattleScribeVersion="2.02" dataRevision="13"/>
-    <dataIndexEntry filePath="Great Britain.catz" dataType="catalogue" dataId="7014295d-9867-d9bc-f92b-43bd75721bed" dataName="Armies of Great Britain" dataBattleScribeVersion="2.02" dataRevision="16"/>
-    <dataIndexEntry filePath="Hungary.catz" dataType="catalogue" dataId="fc7153e0-4f6d-fd46-c72c-96c22e80efc5" dataName="Armies of Hungary" dataBattleScribeVersion="2.02" dataRevision="9"/>
-    <dataIndexEntry filePath="Belgium.catz" dataType="catalogue" dataId="15c0b449-f5f2-7ea1-26c9-8f8535ab16d6" dataName="Armies of Belgium" dataBattleScribeVersion="2.02" dataRevision="4"/>
-    <dataIndexEntry filePath="Italy.catz" dataType="catalogue" dataId="75ceb4ab-9892-e08f-73dc-3a5613709c2b" dataName="Armies of Italy" dataBattleScribeVersion="2.02" dataRevision="13"/>
-    <dataIndexEntry filePath="Finland.catz" dataType="catalogue" dataId="c21b0d9f-da49-864a-d4b3-a2553525647f" dataName="Armies of Finland" dataBattleScribeVersion="2.02" dataRevision="8"/>
-    <dataIndexEntry filePath="France.catz" dataType="catalogue" dataId="92c6d2cd-332f-c735-32f0-00414cd603c0" dataName="Armies of France" dataBattleScribeVersion="2.02" dataRevision="9"/>
-    <dataIndexEntry filePath="Soviet Union.catz" dataType="catalogue" dataId="f8f3ff7d-fbdb-f091-c174-c56498d9c6a7" dataName="Armies of the Soviet Union" dataBattleScribeVersion="2.02" dataRevision="11"/>
-    <dataIndexEntry filePath="Great Britain.catz" dataType="catalogue" dataId="7014295d-9867-d9bc-f92b-43bd75721bed" dataName="Armies of Great Britain" dataBattleScribeVersion="2.02" dataRevision="16"/>
   </dataIndexEntries>
 </dataIndex>
